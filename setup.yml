@@ -1,6 +1,6 @@
 - name: conn
   hosts: local
-  become: true
+  become: false
   tasks:
     - name: con1
       debug:
