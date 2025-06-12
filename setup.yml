@@ -1,0 +1,7 @@
+- name: conn
+  hosts: local
+  become: true
+  tasks:
+    - name: con1
+      debug:
+        msg: "heloo good morning"
